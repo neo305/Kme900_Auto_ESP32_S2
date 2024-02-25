@@ -56,7 +56,7 @@
 //create access point
 boolean startAP = true;
 String AP_SSID = "Kme_Auto_PSFree";
-String AP_PASS = "123456789";
+String AP_PASS = "";
 IPAddress Server_IP(10, 1, 1, 1);
 IPAddress Subnet_Mask(255, 255, 255, 0);
 
@@ -64,20 +64,20 @@ IPAddress Subnet_Mask(255, 255, 255, 0);
 boolean connectWifi = false;
 String WIFI_SSID = "Home_WIFI";
 String WIFI_PASS = "password";
-String WIFI_HOSTNAME = "ps4.local";
+String WIFI_HOSTNAME = "Kameleon_ESP32";
 
 //server port
 int WEB_PORT = 80;
 
 //Auto Usb Wait(milliseconds)
-int USB_WAIT = 5000;
+int USB_WAIT = 3000;
 
 // Displayed firmware version
 String firmwareVer = "1.00";
 
 //ESP sleep after x minutes
-boolean espSleep = false;
-int TIME2SLEEP = 30;  // minutes
+boolean espSleep = true;
+int TIME2SLEEP = 5;  // minutes
 
 
 //-----------------------------------------------------//
